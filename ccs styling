@@ -1,0 +1,236 @@
+/* Menu Styling Starts */
+
+#site-nav {
+	width: 100% !important;	
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 10000px)  {
+	.desktop-menu-hidden {
+		display: none !important;
+	}
+}
+
+/* Menu Styling Ends */
+
+
+/* General Styling Starts */
+
+#drop-shadow-iamge {
+	-webkit-filter: drop-shadow( 1px 1px 1px rgba(0, 0, 0, .2));
+	filter: drop-shadow( 1px 1px 1px rgba(0, 0, 0, .2));
+}
+
+.page-header {
+	display: none;
+}
+
+.elementor-icon-list-items, .elementor-inline-items {
+	row-gap: 15px;
+}
+
+p {
+    margin-bottom: 0.4rem;
+}
+
+/* General Styling Ends */
+
+
+/* Button Styling Starts */
+
+.elementor-button span {
+	text-decoration: inherit;
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+}
+
+.wp-block-buttons>.wp-block-button.wp-block-button__width-50 {
+	width: auto;
+}
+
+/* Button Styling Ends */
+
+
+/* Logo Slider Styling Starts */
+
+.swiper-slide-image {
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	filter: grayscale(100%); 
+	transition: 0.7s all ease-in-out;
+	transform:scale(0.9);
+}
+
+.swiper-slide-image:hover {
+	transform: scale(1);
+	transition: 0.7s all ease-in-out;
+	filter: grayscale(0%);
+}
+
+.swiper-container .swiper-slide figure {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+/* Logo Slider Styling Ends */
+
+
+/* Subscription Form Styling */
+
+.elementor-form .elementor-button.elementor-size-sm {
+	min-height: 51px;
+}
+
+.elementor-field-textual {
+	min-height: 51px;
+}
+
+/* Subscription Form Styling Ends */
+
+
+/* Surecart Styling Starts */
+
+.alignwide {
+	max-width: 100%;
+	padding: 0% 0% 5% 0%;
+	margin: 0px auto !important;
+}
+
+.checkout {
+	max-width: 100%;
+	padding: 0% 0% 5% 0%;
+	margin: 0px auto !important;
+}
+
+.tab-group {
+	display: flex;
+	flex-flow: row wrap;
+	position: relative;
+	border: 1px solid transparent;
+	border-radius: 0px;
+	max-width: 100%;
+}
+
+.sc-columns {
+	gap: 100px !important;
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1000px)  {
+
+	.checkout {
+		max-width: 100%;
+		padding: 0% 10% 10% 10%;
+		margin: 0px auto !important;
+	}
+
+	.alignwide {
+		max-width: 100%;
+		padding: 0% 10% 10% 10%;
+		margin: 0px auto !important;
+	}
+
+}
+
+@media only screen and (min-width: 10px) and (max-width: 700px)  {
+
+	.checkout {
+		max-width: 100%;
+		padding: 0% 5% 15% 5%;
+		margin: 0px auto !important;
+	}
+
+	.alignwide {
+		max-width: 100%;
+		padding: 0% 5% 15% 5%;
+		margin: 0px auto !important;
+	}
+
+	.wp-block-spacer {
+		height: 75px !important;
+	}
+
+}
+
+
+/* Surecart Styling Ends */
+
+
+/* Icon Styling Starts */
+
+.elementor-icon-wrapper {
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+}
+
+/* Icon Styling Ends */
+
+
+/* Mailpoet Subscription Page Starts */
+
+.mailpoet_paragraph label {
+	line-height: 2;
+	font-size: 16px;
+}
+
+.mailpoet_paragraph strong {
+	font-weight: 500;
+}
+
+.mailpoet_segment_label {
+	font-size: 16px;
+	font-weight: 500;
+}
+
+form.mailpoet-manage-subscription .mailpoet_text_label, 
+form.mailpoet-manage-subscription .mailpoet_select_label, 
+form.mailpoet-manage-subscription .mailpoet_segment_label{
+	display: block;
+	font-weight: 500;
+	font-size: 16px;
+	padding-bottom: 10px;
+}
+form.mailpoet-manage-subscription .mailpoet_select, 
+form.mailpoet-manage-subscription .mailpoet_text{
+	width: 50%;
+	padding: 12px;
+}
+form.mailpoet-manage-subscription .mailpoet_paragraph{
+	margin-bottom:20px;
+	line-height: 3;
+}
+
+form.mailpoet-manage-subscription .mailpoet_submit{
+	padding: inherit;
+	width: 15%;
+	font-weight: bold;
+	font-size: 16px;
+	text-transform: capitalize;
+}
+
+fieldset {
+	padding: 0px 0px 10px 0px;
+	border: 0px;
+}
+
+@media only screen and (min-width: 50px) and (max-width: 800px)  {
+
+	form.mailpoet-manage-subscription .mailpoet_submit{
+		width: 50%;
+	}
+
+}		
+
+.mailpoet_confirm_unsubscribe {
+	line-height: 2;
+}
+
+/* Mailpoet Subscription Page Edits Ends */
